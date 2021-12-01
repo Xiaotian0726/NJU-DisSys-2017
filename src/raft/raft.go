@@ -7,7 +7,7 @@ package raft
 //
 // rf = Make(...)
 //   create a new Raft server.
-// rf.Start(command interface{}) (index, term, isleader)
+// rf.Start(command interface{}) (index, term, isLeader)
 //   start agreement on a new log entry
 // rf.GetState() (term, isLeader)
 //   ask a Raft for its current term, and whether it thinks it is leader
@@ -17,15 +17,12 @@ package raft
 //   in the same server.
 //
 
-import "sync"
-import "labrpc"
+import (
+	"labrpc"
+	"sync"
+)
 
-// import "bytes"
-// import "encoding/gob"
-
-
-
-//
+// ApplyMsg
 // as each Raft peer becomes aware that successive log entries are
 // committed, the peer should send an ApplyMsg to the service (or
 // tester) on the same server, via the applyCh passed to Make().
@@ -37,7 +34,7 @@ type ApplyMsg struct {
 	Snapshot    []byte // ignore for lab2; only used in lab3
 }
 
-//
+// Raft
 // A Go object implementing a single Raft peer.
 //
 type Raft struct {
@@ -52,14 +49,15 @@ type Raft struct {
 
 }
 
+// GetState
 // return currentTerm and whether this server
 // believes it is the leader.
 func (rf *Raft) GetState() (int, bool) {
 
 	var term int
-	var isleader bool
+	var isLeader bool
 	// Your code here.
-	return term, isleader
+	return term, isLeader
 }
 
 //
@@ -90,24 +88,21 @@ func (rf *Raft) readPersist(data []byte) {
 	// d.Decode(&rf.yyy)
 }
 
-
-
-
-//
+// RequestVoteArgs
 // example RequestVote RPC arguments structure.
 //
 type RequestVoteArgs struct {
 	// Your data here.
 }
 
-//
+// RequestVoteReply
 // example RequestVote RPC reply structure.
 //
 type RequestVoteReply struct {
 	// Your data here.
 }
 
-//
+// RequestVote
 // example RequestVote RPC handler.
 //
 func (rf *Raft) RequestVote(args RequestVoteArgs, reply *RequestVoteReply) {
@@ -136,11 +131,10 @@ func (rf *Raft) sendRequestVote(server int, args RequestVoteArgs, reply *Request
 	return ok
 }
 
-
-//
+// Start
 // the service using Raft (e.g. a k/v server) wants to start
 // agreement on the next command to be appended to Raft's log. if this
-// server isn't the leader, returns false. otherwise start the
+// server isn't the leader, returns false, otherwise start the
 // agreement and return immediately. there is no guarantee that this
 // command will ever be committed to the Raft log, since the leader
 // may fail or lose an election.
@@ -159,7 +153,7 @@ func (rf *Raft) Start(command interface{}) (int, int, bool) {
 	return index, term, isLeader
 }
 
-//
+// Kill
 // the tester calls Kill() when a Raft instance won't
 // be needed again. you are not required to do anything
 // in Kill(), but it might be convenient to (for example)
@@ -169,7 +163,7 @@ func (rf *Raft) Kill() {
 	// Your code here, if desired.
 }
 
-//
+// Make
 // the service or tester wants to create a Raft server. the ports
 // of all the Raft servers (including this one) are in peers[]. this
 // server's port is peers[me]. all the servers' peers[] arrays
