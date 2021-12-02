@@ -1,0 +1,142 @@
+Warn: 2021/12/02 20:53:33 util.go:62: me:  2 term:  -1 | Follower timeout!
+Warn: 2021/12/02 20:53:33 util.go:62: me:  2 term:   0 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:33 util.go:62: me:  2 term:   0 | Leader change state to Leader!
+Warn: 2021/12/02 20:53:33 util.go:62: me:  1 term:   0 | as a Follower vote to Candidate  2
+Warn: 2021/12/02 20:53:33 util.go:62: me:  0 term:   0 | as a Follower vote to Candidate  2
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:  -1 | Follower timeout!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:   0 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:   0 | Leader change state to Leader!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  2 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 20:53:36 util.go:62: me:  0 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 20:53:36 util.go:62: me:  2 term:   0 | Follower timeout!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  2 term:   1 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  2 term:   1 | Leader change state to Leader!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  0 term:   1 | as a Follower vote to Candidate  2
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:   1 | Follower change state to follower!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:   1 | Follower change state to follower!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:   1 | Follower timeout!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:   2 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  1 term:   2 | Leader change state to Leader!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  2 term:   2 | Follower change state to follower!
+Warn: 2021/12/02 20:53:36 util.go:62: me:  0 term:   2 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 20:53:37 util.go:62: me:  0 term:   2 | Follower timeout!
+Warn: 2021/12/02 20:53:37 util.go:62: me:  0 term:   3 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:37 util.go:62: me:  2 term:   2 | Follower timeout!
+Warn: 2021/12/02 20:53:37 util.go:62: me:  2 term:   3 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  2 term:   3 | Candidate timeout!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  2 term:   3 | Follower change state to follower!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  0 term:   3 | Candidate timeout!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  0 term:   3 | Follower change state to follower!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  2 term:   3 | Follower timeout!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  2 term:   4 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  0 term:   3 | Follower timeout!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  0 term:   4 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  2 term:   4 | Candidate timeout!
+Warn: 2021/12/02 20:53:38 util.go:62: me:  2 term:   4 | Follower change state to follower!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  0 term:   4 | Candidate timeout!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  0 term:   4 | Follower change state to follower!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  2 term:   4 | Follower timeout!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  2 term:   5 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  2 term:   5 | Leader change state to Leader!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  0 term:   5 | as a Follower vote to Candidate  2
+Warn: 2021/12/02 20:53:39 util.go:62: me:  1 term:   5 | Follower change state to follower!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  1 term:   5 | Follower timeout!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  1 term:   6 | Candidate change state to candidate!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  1 term:   6 | Leader change state to Leader!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  2 term:   6 | Follower change state to follower!
+Warn: 2021/12/02 20:53:39 util.go:62: me:  0 term:   6 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:18:53 util.go:62: me:  1 term:  -1 | Follower timeout!
+Warn: 2021/12/02 21:18:53 util.go:62: me:  1 term:   0 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:53 util.go:62: me:  1 term:   0 | Leader change state to Leader!
+Warn: 2021/12/02 21:18:53 util.go:62: me:  2 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:18:53 util.go:62: me:  0 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:  -1 | Follower timeout!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:   0 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:   0 | Leader change state to Leader!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  2 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:18:56 util.go:62: me:  0 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:18:56 util.go:62: me:  2 term:   0 | Follower timeout!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  2 term:   1 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  2 term:   1 | Leader change state to Leader!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  0 term:   1 | as a Follower vote to Candidate  2
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:   1 | Follower change state to follower!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:   1 | Follower change state to follower!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:   1 | Follower timeout!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:   2 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  1 term:   2 | Leader change state to Leader!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  2 term:   2 | Follower change state to follower!
+Warn: 2021/12/02 21:18:56 util.go:62: me:  0 term:   2 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:18:57 util.go:62: me:  0 term:   2 | Follower timeout!
+Warn: 2021/12/02 21:18:57 util.go:62: me:  0 term:   3 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:57 util.go:62: me:  2 term:   2 | Follower timeout!
+Warn: 2021/12/02 21:18:57 util.go:62: me:  2 term:   3 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  0 term:   3 | Candidate timeout!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  0 term:   3 | Follower change state to follower!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  2 term:   3 | Candidate timeout!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  2 term:   3 | Follower change state to follower!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  0 term:   3 | Follower timeout!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  0 term:   4 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  2 term:   3 | Follower timeout!
+Warn: 2021/12/02 21:18:58 util.go:62: me:  2 term:   4 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  0 term:   4 | Candidate timeout!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  0 term:   4 | Follower change state to follower!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  2 term:   4 | Candidate timeout!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  2 term:   4 | Follower change state to follower!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  0 term:   4 | Follower timeout!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  0 term:   5 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  0 term:   5 | Leader change state to Leader!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  2 term:   5 | as a Follower vote to Candidate  0
+Warn: 2021/12/02 21:18:59 util.go:62: me:  1 term:   5 | Follower change state to follower!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  1 term:   5 | Follower change state to follower!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  1 term:   5 | Follower timeout!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  1 term:   6 | Candidate change state to candidate!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  1 term:   6 | Leader change state to Leader!
+Warn: 2021/12/02 21:18:59 util.go:62: me:  2 term:   6 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:18:59 util.go:62: me:  0 term:   6 | Follower change state to follower!
+Warn: 2021/12/02 21:51:45 util.go:62: me:  1 term:  -1 | Follower timeout!
+Warn: 2021/12/02 21:51:45 util.go:62: me:  1 term:   0 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:45 util.go:62: me:  1 term:   0 | Leader change state to Leader!
+Warn: 2021/12/02 21:51:45 util.go:62: me:  2 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:51:45 util.go:62: me:  0 term:   0 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:51:47 util.go:62: me:  0 term:  -1 | Follower timeout!
+Warn: 2021/12/02 21:51:47 util.go:62: me:  0 term:   0 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:47 util.go:62: me:  0 term:   0 | Leader change state to Leader!
+Warn: 2021/12/02 21:51:47 util.go:62: me:  2 term:   0 | as a Follower vote to Candidate  0
+Warn: 2021/12/02 21:51:47 util.go:62: me:  1 term:   0 | as a Follower vote to Candidate  0
+Warn: 2021/12/02 21:51:48 util.go:62: me:  1 term:   0 | Follower timeout!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  1 term:   1 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  1 term:   1 | Leader change state to Leader!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  2 term:   1 | as a Follower vote to Candidate  1
+Warn: 2021/12/02 21:51:48 util.go:62: me:  0 term:   1 | Follower change state to follower!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  0 term:   1 | Follower timeout!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  0 term:   2 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  0 term:   2 | Leader change state to Leader!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  2 term:   2 | as a Follower vote to Candidate  0
+Warn: 2021/12/02 21:51:48 util.go:62: me:  1 term:   2 | Follower change state to follower!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  1 term:   2 | Follower timeout!
+Warn: 2021/12/02 21:51:48 util.go:62: me:  1 term:   3 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:49 util.go:62: me:  2 term:   2 | Follower timeout!
+Warn: 2021/12/02 21:51:49 util.go:62: me:  2 term:   3 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:49 util.go:62: me:  1 term:   3 | Candidate timeout!
+Warn: 2021/12/02 21:51:49 util.go:62: me:  1 term:   3 | Follower change state to follower!
+Warn: 2021/12/02 21:51:49 util.go:62: me:  2 term:   3 | Candidate timeout!
+Warn: 2021/12/02 21:51:49 util.go:62: me:  2 term:   3 | Follower change state to follower!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  2 term:   3 | Follower timeout!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  2 term:   4 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  1 term:   3 | Follower timeout!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  1 term:   4 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  2 term:   4 | Candidate timeout!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  2 term:   4 | Follower change state to follower!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  1 term:   4 | Candidate timeout!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  1 term:   4 | Follower change state to follower!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  2 term:   4 | Follower timeout!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  2 term:   5 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  2 term:   5 | Leader change state to Leader!
+Warn: 2021/12/02 21:51:50 util.go:62: me:  1 term:   5 | as a Follower vote to Candidate  2
+Warn: 2021/12/02 21:51:51 util.go:62: me:  0 term:   5 | Follower change state to follower!
+Warn: 2021/12/02 21:51:51 util.go:62: me:  0 term:   5 | Follower change state to follower!
+Warn: 2021/12/02 21:51:51 util.go:62: me:  0 term:   5 | Follower timeout!
+Warn: 2021/12/02 21:51:51 util.go:62: me:  0 term:   6 | Candidate change state to candidate!
+Warn: 2021/12/02 21:51:51 util.go:62: me:  0 term:   6 | Leader change state to Leader!
+Warn: 2021/12/02 21:51:51 util.go:62: me:  2 term:   6 | Follower change state to follower!
+Warn: 2021/12/02 21:51:51 util.go:62: me:  1 term:   6 | as a Follower vote to Candidate  0

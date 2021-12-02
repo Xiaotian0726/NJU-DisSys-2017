@@ -1,4 +1,1 @@
 .idea
-
-#  raft logs
-./src/raft/log/
