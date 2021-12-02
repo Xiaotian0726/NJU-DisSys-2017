@@ -1,0 +1,560 @@
+info: 2021/12/02 20:53:33 util.go:60: Create a new server: [ 0]! term: [ -1]
+info: 2021/12/02 20:53:33 util.go:60: Create a new server: [ 1]! term: [ -1]
+info: 2021/12/02 20:53:33 util.go:60: Create a new server: [ 2]! term: [ -1]
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:33 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:33 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:34 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:34 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: Create a new server: [ 0]! term: [ -1]
+info: 2021/12/02 20:53:35 util.go:60: Create a new server: [ 1]! term: [ -1]
+info: 2021/12/02 20:53:35 util.go:60: Create a new server: [ 2]! term: [ -1]
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:35 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:35 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   1 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   1 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   1 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   1 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   1 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   1 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   1 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   1 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   1 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   1 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   1 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   1 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   1 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:36 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  2 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:36 util.go:60: me:  0 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   2 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   2 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:37 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:37 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:37 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:38 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:38 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   2 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   5 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   5 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   5 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  2
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  1 term:   6 | Leader send message to  0
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:39 util.go:60: me:  2 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:39 util.go:60: me:  0 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:40 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:40 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:40 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:40 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:40 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:40 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:40 util.go:60: me:  1 term:   6 | Leader send message to  2
+info: 2021/12/02 20:53:40 util.go:60: me:  2 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:40 util.go:60: me:  1 term:   6 | Leader send message to  0
+info: 2021/12/02 20:53:40 util.go:60: me:  0 term:   6 | receive new entries from Leader:  1, size:   0
+info: 2021/12/02 20:53:40 util.go:60: me:  2 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:40 util.go:60: me:  0 term:   6 | receive heartbeat from Leader  1
+info: 2021/12/02 20:53:40 util.go:60: me:  2 term:   0 | Leader send message to  1
+info: 2021/12/02 20:53:40 util.go:60: me:  1 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:40 util.go:60: me:  2 term:   0 | Leader send message to  0
+info: 2021/12/02 20:53:40 util.go:60: me:  0 term:   0 | receive new entries from Leader:  2, size:   0
+info: 2021/12/02 20:53:40 util.go:60: me:  1 term:   0 | receive heartbeat from Leader  2
+info: 2021/12/02 20:53:40 util.go:60: me:  0 term:   0 | receive heartbeat from Leader  2
