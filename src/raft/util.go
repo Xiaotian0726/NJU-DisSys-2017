@@ -6,8 +6,8 @@ import (
 	"os"
 )
 
-const Debug = 0
-//const Debug = 1
+//const Debug = 0
+const Debug = 1
 
 var (
 	Info  *log.Logger
@@ -41,7 +41,7 @@ func init() {
 		log.Fatalln("Open errorFile failed.\n", err)
 	}
 
-	Info = log.New(io.MultiWriter(os.Stderr, infoFile), "info: ", log.Ldate|log.Ltime|log.Lshortfile)
+	Info = log.New(io.MultiWriter(os.Stderr, infoFile), "Info: ", log.Ldate|log.Ltime|log.Lshortfile)
 	Warn = log.New(io.MultiWriter(os.Stderr, warnFile), "Warn: ", log.Ldate|log.Ltime|log.Lshortfile)
 	Error = log.New(io.MultiWriter(os.Stderr, errorFile), "Error: ", log.Ldate|log.Ltime|log.Lshortfile)
 }
