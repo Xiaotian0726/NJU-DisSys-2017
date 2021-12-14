@@ -6,8 +6,8 @@ import (
 	"os"
 )
 
-//const Debug = 0
-const Debug = 1
+const Debug = 0
+//const Debug = 1
 
 var (
 	Info  *log.Logger
