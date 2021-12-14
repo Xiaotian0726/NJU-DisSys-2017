@@ -6,8 +6,8 @@ import (
 	"os"
 )
 
-//const Debug = 0
-const Debug = 1
+//const Debug = false
+const Debug = true
 
 var (
 	Info  *log.Logger
@@ -46,21 +46,17 @@ func init() {
 	Error = log.New(io.MultiWriter(os.Stderr, errorFile), "Error: ", log.Ldate|log.Ltime|log.Lshortfile)
 }
 
-func DPrintf(printLog bool, level string, format string, a ...interface{}) (n int, err error) {
-	//if Debug > 0 {
-	//	log.Printf(format, a...)
-	//}
-
-	if Debug == 0 || !printLog {
+func DPrintf(level string, format string, a ...interface{}) (n int, err error) {
+	if !Debug {
 		return
 	}
 
 	switch level {
-	case "info":
+	case "Info":
 		Info.Printf(format, a...)
-	case "warn":
+	case "Warn":
 		Warn.Printf(format, a...)
-	case "error":
+	case "Error":
 		Error.Printf(format, a...)
 	}
 

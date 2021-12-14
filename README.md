@@ -34,4 +34,4 @@ go test -run Persist3
 
 ## References
 - sworduo/MIT6.824.git
-- D0ub1ePieR/Distrubted-system-raft
+- D0ub1ePieR/Distrubted-system-raft.git
