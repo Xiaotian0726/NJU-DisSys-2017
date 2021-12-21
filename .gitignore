@@ -1,3 +1,5 @@
+# JetBrains config file
 .idea
 
+# logs
 src/raft/log/*.log
