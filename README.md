@@ -13,8 +13,8 @@ export GOPATH=/home/hxt/NJU-DisSys-2017
 
 ### Part1 test
 ```shell
-cd src/raft
 go test -run Election
+#
 ```
 
 ### Part2 test
@@ -23,6 +23,7 @@ go test -run FailNoAgree
 go test -run ConcurrentStarts
 go test -run Rejoin
 go test -run Backup
+#
 ```
 
 ### Part3 test
@@ -30,6 +31,7 @@ go test -run Backup
 go test -run Persist1
 go test -run Persist2
 go test -run Persist3
+#
 ```
 
 

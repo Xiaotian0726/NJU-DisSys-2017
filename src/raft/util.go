@@ -6,8 +6,9 @@ import (
 	"os"
 )
 
+// Debug
+// If true, logs will be recorded
 const Debug = false
-//const Debug = true
 
 var (
 	Info  *log.Logger
@@ -64,13 +65,13 @@ func DPrintf(level string, format string, a ...interface{}) (n int, err error) {
 }
 
 func Min(a, b int) int {
-	if a < b{
+	if a < b {
 		return a
 	}
 	return b
 }
 func Max(a, b int) int {
-	if a < b{
+	if a < b {
 		return b
 	}
 	return a
