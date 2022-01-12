@@ -59,6 +59,8 @@ func DPrintf(level string, format string, a ...interface{}) (n int, err error) {
 		Warn.Printf(format, a...)
 	case "Error":
 		Error.Printf(format, a...)
+	default:
+		log.Fatalf("DPrintf: unknown log level: %s\n", level)
 	}
 
 	return
